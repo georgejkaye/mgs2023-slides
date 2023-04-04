@@ -1,6 +1,7 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{xparse}
+\usepackage{svg}
 
 \input{macros/sets}
 \input{macros/category}
@@ -42,6 +43,8 @@
 \setbeamercolor{alerted text}{fg=draccent}
 
 \newtheorem{axiom}{Axiom(s)}
+
+\newcommand{\svg}[3]{\raisebox{#1em}{\scalebox{#2}{\includesvg{imgs/#3}}}}
 
 \title{A compositional theory of digital circuits}
 \author{

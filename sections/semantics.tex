@@ -12,24 +12,149 @@
 
 \end{frame}
 \begin{frame}
-    \frametitle{The obvious bits}
+    \frametitle{Open the gates}
 
+    \centering
+    \svg{0}{1}{gate-eqs}
 
+\end{frame}
+\begin{frame}
+    \frametitle{Fork in the road}
+
+    \centering
+    \svg{0}{1.25}{fork-eqs}
+
+\end{frame}
+\begin{frame}
+    \frametitle{Time to join up}
+
+    \centering
+    \svg{0}{0.75}{join-eqs}
+
+\end{frame}
+\begin{frame}
+    \frametitle{This article is a stub}
+
+    \centering
+    \svg{0}{1.25}{stub-eqs}
+
+\end{frame}
+\begin{frame}
+    \frametitle{Did we get it right?}
+
+    \centering
+    \LARGE
+    true \alert{XOR} false
+
+    \normalsize
+
+    \visible<2>{\only<1-2>{\svg{0}{1}{xor-test-1}}}%
+    \only<3>{\svg{0}{1}{xor-test-2}}%
+    \only<4>{\svg{0}{1}{xor-test-3}}%
+    \only<5>{\svg{0}{1}{xor-test-4}}%
+    \only<6>{\svg{0}{1}{xor-test-5}}%
+
+\end{frame}
+\begin{frame}
+    \frametitle{We must not delay}
+
+    \centering
+    \svg{0}{1.25}{delay-eqs}
 
 \end{frame}
 \begin{frame}
     \frametitle{This gives us some nice structure}
 
-    From these \alert{axioms} we can derive \alert{theorems}
-
     \centering
     \LARGE
-    Copying
 
-    copy
+    \pause
 
-    Discarding!
+    From \alert{axioms} we derive \alert{theorems}
 
-    discard
+    \pause
+    \vspace{1em}
+
+    \svg{0}{0.75}{copy}
+
+    \pause
+
+    \vspace{1em}
+
+    \svg{0}{0.75}{discard}
+
+\end{frame}
+\begin{frame}
+    \frametitle{Trust the process}
+
+    \pause
+    \LARGE
+    \centering
+    We want to \alert{process} inputs to obtain \alert{outputs}
+    \normalsize
+
+    \pause
+    \vspace{1em}
+
+    \svg{0}{1}{productivity}
+
+\end{frame}
+\begin{frame}
+    \frametitle{This axiom is the last one}
+
+    \pause
+    \centering
+    \svg{0}{0.8}{streaming}
+
+    \vspace{1em}
+    \pause
+
+    \svg{0}{0.8}{gen-streaming}
+
+\end{frame}
+\begin{frame}
+    \frametitle{A big(ish) example}
+
+    \centering
+    \only<1>{\svg{0}{0.75}{acc}}%
+    \only<2>{\svg{0}{0.75}{acc-1}}%
+    \only<3>{\svg{0}{0.75}{acc-2}}%
+    \only<4>{\svg{0}{0.75}{acc-3}}%
+    \only<5>{\svg{0}{0.75}{acc-4}}%
+    \only<6>{\svg{0}{0.75}{acc-5}}%
+    \only<7>{\svg{0}{0.75}{acc-6}}%
+
+\end{frame}
+\begin{frame}
+    \frametitle{We made it!}
+
+    \centering
+
+    \LARGE
+    We're only scratching the surface!
+
+    \vspace{1em}
+
+    \large
+    \pause
+
+    \alert{Arbitrary} gate and value sets...
+
+    \pause
+
+    Handling \alert{non-delay-guarded feedback}...
+
+    \pause
+
+    Defining the \alert{denotational semantics} of circuits as stream functions...
+
+    \pause
+    Interpreting circuits as \alert{hypergraphs} for reasoning computationally...
+
+    \pause
+    \vspace{1em}
+
+    \scriptsize
+    (someone could write this up as a PhD thesis)
 
 \end{frame}

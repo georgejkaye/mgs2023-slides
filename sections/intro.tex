@@ -1,3 +1,4 @@
+% !TeX root = ../main-presentation.tex
 \begin{frame}
     \frametitle{What are we going to be talking about?}
     \pause
@@ -29,13 +30,23 @@
     \normalsize
 
     \pause
-    F g
+    \includesvg{imgs/f}
+    \pause
+    \quad
+    \includesvg{imgs/g}
+    \pause
+    \quad
+    \includesvg{imgs/h}
 
-    \vspace{0.5em}
-    Composites
 
     \pause
-    \vspace{0.5em}
+    \vspace{1em}
+
+    \raisebox{2em}{\includesvg{imgs/seq}}
+    \quad
+    \includesvg{imgs/par}
+    \quad
+    \raisebox{2em}{\includesvg{imgs/trace}}
 
 \end{frame}
 \begin{frame}
@@ -45,18 +56,45 @@
     We want to reason \alert{equationally} about circuits.
 
     \normalsize
-    Example rewrite of circuits (definition of rewrite will do)
+    \vspace{2em}
+
+    \pause
+
+    \svg{-0.5}{0.5}{f}
+    \quad
+    \pause
+    \(=\)
+    \quad
+    \svg{-2}{0.5}{rewrite-l}
+    \quad
+    \pause
+    \(\rightsquigarrow\)
+    \quad
+    \svg{-2}{0.5}{rewrite-r}
+    \quad
+    \pause
+    \(=\)
+    \quad
+    \svg{-0.5}{0.5}{g}
 
 \end{frame}
 \begin{frame}
     \frametitle{Why all the pictures?}
     \centering
     \LARGE
+    \pause
     String diagrams are \alert{good}.
 
     \normalsize
-    (but these are a little different to the ones Dan and Jamie are using)
 
-    put some pictures on this slide too
+    \vspace{1em}
+
+    \pause
+    \only<3>{\svg{0}{1.25}{string-crossed}}%
+    \only<4->{\svg{0}{1.25}{string-uncrossed}}%
+
+    \pause\pause
+    \vspace{1em}
+    (but these are a little different to the ones Dan and Jamie are using)
 
 \end{frame}

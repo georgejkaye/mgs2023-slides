@@ -1,22 +1,74 @@
 \begin{frame}
-    \frametitle{Putting the pieces together}
+    \frametitle{I thought this was about circuits}
 
-    Basic components of circuits
+    \centering
+
+    \pause
+    \svg{0}{1}{and}
+    \pause\quad
+    \svg{0}{1}{or}
+    \pause\quad
+    \svg{0}{1}{not}
+
+    \vspace{1em}
+
+    \pause
+    \svg{0}{1}{fork}
+    \pause\quad
+    \svg{0}{1}{join}
+    \pause\quad
+    \svg{0.5}{1}{stub}
+    \pause\quad
+    \svg{0.5}{1}{init}
 
 \end{frame}
 \begin{frame}
     \frametitle{Putting the pieces together}
 
     \centering
+    \LARGE
     This lets us build \alert{combinational} circuits.
 
+    \vspace{1em}
+    \normalsize
+    \svg{-1}{0.75}{xor}
+    \quad\(:=\)\quad
+    \svg{-3}{0.75}{xor-def}
+
 \end{frame}
 \begin{frame}
     \frametitle{Putting the pieces together}
 
     \centering
-    These circuits are \emph{boring}
+    \LARGE
+    These circuits are \alert{boring}!
+    \pause
+    Circuits need \alert{state}...
 
-    Add state to circuits
+    \normalsize
+    \vspace{1em}
 
+    \pause
+    \svg{0}{1}{true}
+    \pause\quad
+    \svg{0}{1}{false}
+    \pause\quad
+    \svg{0}{1}{both}
+    \pause\quad
+    \svg{0}{1}{delay}
+
+    \pause
+    \vspace{1em}
+
+    \LARGE
+    ...and \alert{feedback}!
+    \normalsize
+
+    \vspace{1em}
+    \pause
+
+    \svg{-1.5}{1}{h}
+    \pause
+    \quad\(\rightarrow\)\quad
+    \svg{-1.5}{1}{trace}
 \end{frame}
